@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+yarn-error.log
+oxford5k
+test
+train
+__pycache__
+.vscode
+output/
+.DS_Store
