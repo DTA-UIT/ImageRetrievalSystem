@@ -60,7 +60,7 @@ yarn start
 </div>
 
 ### 4. Experimental configuration
-We used pre-trained ResNet101-GeM and VGG16-GeM to perform the fine-tuning. We conduct our experiments using NVIDIA @ RTX 3060 GPU, 16GB RAM with 11th Gen Intel® Core™ i7-11700K @ 3.60GHz×16 CPU
+We used pre-trained ResNet101-GeM and VGG16-GeM to perform the fine-tuning. We conduct our experiments using NVIDIA @ RTX 3060 GPU, 16GB RAM with 11th Gen Intel® Core™ i7-11700K @ 3.60GHz×16 CPU and PyTorch framework.
 
 ### 5. Results
 #### Reproduce our final results
