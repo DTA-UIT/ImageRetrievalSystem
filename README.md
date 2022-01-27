@@ -34,6 +34,26 @@ Activations on Convolutional Neural Networks (CNNs) served as image descriptors 
 Throughout this work, we choose the approach as the unsupervised CNNs fine-tuning for image retrieval. Firstly, we harness SfM information and enforce for both hard unmatched and matched examples for CNNs training. Secondly, we let our architectures learn the whitening through the same training data to avoid the short representations that are the limitations from traditional whitening performance. We choose to use a trainable pooling layer which generalizes existing popular pooling schemes for CNNs and thus both enhances the performance and preserving the same descriptor dimensionality as well, lastly.
 
 ### 2. Repo structure
+- **src:** All of our source code
+  - **public**
+    - **css**
+    - **img**: assets of our work
+    - **script/cnnimageretrieval-pytorch**: the Python core on handling models and systems lies behind our demo
+  - **resources**  
+    - **scss**
+    - **views:** Frontend code 
+  - **routes**
+    - index.js: Javascript core to process logical beyond Frontend 
+  - index.js: main js file to route the demo
+  - package.json
+- .gitattributes
+- .gitignore
+- LICENSE
+- Procfile
+- deploy.sh
+- package.json
+- requirements.txt
+- yarn.lock
 
 ### 3. Demo
 The  total  time  for  processing  both  cropping  the uploaded  image  into  the  new  one  and  processing  the  query is 18 seconds on average.
