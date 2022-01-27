@@ -5,7 +5,7 @@
 </div>
 
 ### Abstract 
-Activations on Convolutional Neural Networks (CNNs) served as image descriptors have reached its peak in the field of image retrieval due to their outstanding efficiency and compactness of representation. However, there is a massive need of annotated data and high quality annotation is a significance to achieve reasonable results. Throughout this work, we do fine-tune CNNs for image retrieval system on a collection of unordered images automatically. The selection of the train data could be guided using state-of-the-art retrieval and Structure-from-Motion methods to reconstruct 3D models. We additionally apply a novel trainable Generalized-Mean pooling layer generalizing max and average pooling for a boosting in retrieval performance. And we would conduct our experiments with VGG and ResNet architectures on Oxford5k and Paris6k benchmarks.
+Activations on Convolutional Neural Networks (CNNs) served as image descriptors have reached its peak in the field of image retrieval due to their outstanding efficiency and compactness of representation. However, there is a massive need of annotated data and high quality annotation is a significance to achieve reasonable results. Throughout this work, we do fine-tune CNNs for image retrieval system on a collection of unordered images automatically. The selection of the train data could be guided using state-of-the-art retrieval and Structure-from-Motion methods to reconstruct 3D models. We additionally apply a novel trainable Generalized-Mean pooling layer generalizing max and average pooling for a boosting in retrieval performance. And we would conduct our experiments with VGG and ResNet architectures on Oxford5k, Paris6k, ROxford5k and RParis6k benchmarks.
 
 <div align='center'>
   
