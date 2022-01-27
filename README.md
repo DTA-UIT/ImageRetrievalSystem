@@ -46,6 +46,7 @@ Throughout this work, we choose the approach as the unsupervised CNNs fine-tunin
     - index.js: Javascript core to process logical beyond Frontend 
   - index.js: main js file to route the demo
   - package.json
+- **notebook:** Log results on running our work
 - .gitattributes
 - .gitignore
 - LICENSE
