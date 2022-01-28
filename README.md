@@ -98,4 +98,6 @@ python3 -m cirtorch.examples.test \
           --whitening 'retrieval-SfM-120k' \ 
           --multiscale '[1, 1/2**(1/2), 1/2]'
 ```
-### 6. References
+Code inspired from:
+[CNN Image Retrieval in PyTorch: Training and evaluating CNNs for Image Retrieval in PyTorch
+](https://github.com/filipradenovic/cnnimageretrieval-pytorch),
