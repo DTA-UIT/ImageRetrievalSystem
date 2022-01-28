@@ -56,6 +56,7 @@ Throughout this work, we choose the approach as the unsupervised CNNs fine-tunin
 - package.json
 - requirements.txt
 - yarn.lock
+- report.pdf: Our final report on this work
 
 ### 3. Demo
 The  total  time  for  processing  both  cropping  the uploaded  image  into  the  new  one  and  processing  the  query is 18 seconds on average.
