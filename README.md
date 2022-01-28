@@ -17,7 +17,8 @@ Activations on Convolutional Neural Networks (CNNs) served as image descriptors 
 ----
 
 ### Report 
-🎃🎃 Our full report is shown ![here](...)
+🎃🎃 Our full report is shown [here](...)
+🎃🎃 Our demo video is [here](https://drive.google.com/file/d/1HeqgfqGmo6l2jHVyeT0AOWXno2aBkYfH/view)
 
 ----
 ### Table of contents
@@ -69,6 +70,7 @@ pip install -r requirements.txt
 yarn 
 yarn start
 ```
+
 #### Screenshot from our demo
 
 <div align='center'>
