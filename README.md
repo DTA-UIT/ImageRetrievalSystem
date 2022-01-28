@@ -17,7 +17,7 @@ Activations on Convolutional Neural Networks (CNNs) served as image descriptors 
 ----
 
 ### Report 
-🎃🎃 Our full report is shown [here](...)      
+🎃🎃 Our full report is shown [here](https://github.com/DTA-UIT/ImageRetrieval_System/blob/main/report.pdf)      
 🎃🎃 Our demo video is [here](https://drive.google.com/file/d/1HeqgfqGmo6l2jHVyeT0AOWXno2aBkYfH/view)
 
 ----
