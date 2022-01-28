@@ -100,4 +100,4 @@ python3 -m cirtorch.examples.test \
 ```
 Code inspired from:
 [CNN Image Retrieval in PyTorch: Training and evaluating CNNs for Image Retrieval in PyTorch
-](https://github.com/filipradenovic/cnnimageretrieval-pytorch),
+](https://github.com/filipradenovic/cnnimageretrieval-pytorch)
