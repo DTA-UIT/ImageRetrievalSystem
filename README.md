@@ -89,15 +89,15 @@ We used pre-trained ResNet101-GeM and VGG16-GeM to perform the fine-tuning. We c
 ### 5. Results
 #### Reproduce our final results
 ```bash
-cd src/public/script/cnnimageretrieval-pytorch 
+>>> cd src/public/script/cnnimageretrieval-pytorch 
 
-python3 -m cirtorch.examples.test \
+>>> python3 -m cirtorch.examples.test \
           --gpu-id '0' \
           --network-path 'retrievalSfM120k-resnet101-gem' \
           --datasets 'oxford5k' \ 
           --whitening 'retrieval-SfM-120k' \ 
           --multiscale '[1, 1/2**(1/2), 1/2]'
 ```
-Code inspired from:
+Our work is inspired from:
 [CNN Image Retrieval in PyTorch: Training and evaluating CNNs for Image Retrieval in PyTorch
 ](https://github.com/filipradenovic/cnnimageretrieval-pytorch)
