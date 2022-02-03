@@ -20,6 +20,18 @@ Activations on Convolutional Neural Networks (CNNs) served as image descriptors 
 🎃🎃 Our full report is shown [here](https://github.com/DTA-UIT/ImageRetrieval_System/blob/main/report.pdf)      
 🎃🎃 Our demo video is [here](https://drive.google.com/file/d/1HeqgfqGmo6l2jHVyeT0AOWXno2aBkYfH/view)
 
+This project is hosted by:
+
+<div align='left'>
+  
+|Full name|Role|
+|:--:|:--:|
+| [Tan Ngoc Pham](https://github.com/ngctnnnn) | Leader |
+| [An Vo](https://github.com/vokhanhan25) | Member |
+| [Dzung Tri Bui](https://github.com/BTrDung) | Member |
+  
+</div>
+  
 ----
 ### Table of contents
 1. [Introduction](#1-introduction)
@@ -71,6 +83,17 @@ pip install -r requirements.txt
 yarn 
 yarn start
 ```
+- Reproduce our final results
+```bash
+>>> cd src/public/script/cnnimageretrieval-pytorch 
+
+>>> python3 -m cirtorch.examples.test \
+          --gpu-id '0' \
+          --network-path 'retrievalSfM120k-resnet101-gem' \
+          --datasets 'oxford5k' \ 
+          --whitening 'retrieval-SfM-120k' \ 
+          --multiscale '[1, 1/2**(1/2), 1/2]'
+```
 
 #### Screenshot from our demo
 
@@ -87,17 +110,7 @@ yarn start
 We used pre-trained ResNet101-GeM and VGG16-GeM to perform the fine-tuning. We conduct our experiments using NVIDIA @ RTX 3060 GPU, 16GB RAM with 11th Gen Intel® Core™ i7-11700K @ 3.60GHz×16 CPU and PyTorch framework.
 
 ### 5. Results
-#### Reproduce our final results
-```bash
->>> cd src/public/script/cnnimageretrieval-pytorch 
 
->>> python3 -m cirtorch.examples.test \
-          --gpu-id '0' \
-          --network-path 'retrievalSfM120k-resnet101-gem' \
-          --datasets 'oxford5k' \ 
-          --whitening 'retrieval-SfM-120k' \ 
-          --multiscale '[1, 1/2**(1/2), 1/2]'
-```
 Our work is inspired from:
 [CNN Image Retrieval in PyTorch: Training and evaluating CNNs for Image Retrieval in PyTorch
 ](https://github.com/filipradenovic/cnnimageretrieval-pytorch)
